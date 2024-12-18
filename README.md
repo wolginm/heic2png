@@ -8,6 +8,21 @@ It includes options to automatically batch all the `.heic` files it finds in a f
 
 [Download the latest release](https://github.com/danbrakeley/heic2png/releases), and then put the exe somewhere in your path.
 
+### Compiling on Linux
+
+1. Install golang
+  - Via apt `apt install golang-go`
+  - Via source [Download and install](https://go.dev/doc/install)
+2. Clone this repository `git clone https://github.com/danbrakeley/heic2png.git`
+3. Enter the repository and execute the [build.sh](https://github.com/danbrakeley/heic2png/blob/main/build.sh) script
+  - ```
+    cd heic2png
+    chmod +x build.sh
+    ./build.sh
+    ```
+4. Run the script file.
+
+
 ## Usage
 
 Run `heic2png -h` to see all the flags and arguments. As of v0.2.0, your output should look something like this:
